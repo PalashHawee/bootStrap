@@ -7,6 +7,6 @@
 
 ## 1. Foodie Responsive Website
 
-![Foodie](https://github.com/PalashHawee/bootStrap/tree/foodies)
+(https://github.com/PalashHawee/bootStrap/tree/foodies)
 
 
