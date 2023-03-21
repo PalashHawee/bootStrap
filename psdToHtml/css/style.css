@@ -1,0 +1,59 @@
+/*===Hero Section===*/
+.container .logo-brand img {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+}
+
+.header {
+  background-image: url(../images/hillsHero.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link {
+  color: azure;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: lime;
+}
+.custom-btn {
+  background: limegreen;
+  box-shadow: none;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.625rem 1.875rem;
+  border-radius: 12px;
+}
+.custom-btn:hover {
+  background-color: rgb(7, 143, 7);
+  color: white;
+}
+
+.hero-banner {
+  min-height: 90vh;
+  align-items: center;
+}
+.hero-banner h3,
+h1 {
+  color: white;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.hero-banner .learn-button {
+  margin-top: 35px;
+}
+.hero-banner span {
+  display: block;
+  height: 3px;
+  width: 150px;
+  background: red;
+  margin: auto;
+}
+/*Scroll Behavior*/
+html {
+  scroll-behavior: smooth;
+}
