@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: blueviolet;
+}
+
+/*===Logo Design===*/
+.navbar-brand img {
+  width: 30%;
+}
+/*navbar button design */
+.navbar-nav .btn-nav {
+  background: #21b573;
+  border-radius: 33px;
+  padding: 0 45px;
+  text-align: center;
+}
+/*Designing Hero Section */
+.hero-section {
+  background-color: #f0fff0;
+  min-height: 100vh;
+}
+/*Hero Section Banner*/
+.hero-content h5 {
+  color: #fd511a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.hero-content h1 {
+  color: #000000;
+  width: 405px;
+  height: 140px;
+  left: 205px;
+  top: 212px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+.hero-content h1 span {
+  color: #42a142;
+  font-family: 'Poppins', sans-serif;
+}
+.hero-content p {
+  color: #6c6b6b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  width: 403px;
+}
+.hero-content .btn-custom {
+  background: #21b573;
+  outline: none;
+  color: #ffffff;
+  border-radius: 33px;
+  align-items: center;
+  padding: 12px 36px;
+}
+/*==Feature Design===*/
+.feature-content {
+  background: #f8fffb;
+  border-radius: 10px;
+  width: 270px;
+  height: 270px;
+  left: 135px;
+  top: 618px;
+  padding: 40px 0;
+}
+
+.feature-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #585859;
+}
+
+.feature-content img {
+  width: 66px;
+  height: 85px;
+  left: 231px;
+  top: 672px;
+}
+
+.feature-content h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Poppins', sans-serif;
+  color: #413960;
+  margin-top: 15px;
+}
+.feature-content:hover {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/*Designing Course SEction*/
+.course {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  width: 370px;
+  height: 483px;
+  left: 135px;
+  top: 1102px;
+  padding-bottom: 0px;
+}
+
+.course h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* margin-left: 15px; */
+
+  color: #413960;
+}
+.course h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* margin-left: 15px; */
+
+  color: #585859;
+}
+.course img {
+  width: 50%;
+  width: 331px;
+  height: 234px;
+  left: 154px;
+  top: 1126px;
+  padding: 22px 52px;
+  border-radius: 11px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course ul {
+  padding: 0;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course ul li {
+  margin-left: 15px;
+  margin-right: 22px;
+  padding: 40px;
+}
+
+.course ul li i {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 8px;
+
+  color: #585859;
+}
+
+.btn-course {
+  padding: 12px 0 0;
+  line-height: 19px;
+  margin-left: 55px;
+
+  width: 137px;
+  font-size: 16px;
+  margin: 10px 0;
+
+  background: #21b573;
+  border-radius: 33px;
+}
+.btn-course:hover {
+  color: #087cae;
+}
+.inner-content {
+  margin-left: 25px;
+}
+
+/*===Testimonial===*/
+.client {
+  width: 40%;
+  height: 120px;
+  border-radius: 50px;
+  border: 1px solid#C4C4C4;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+/*====Footer===*/
+.footer {
+  background: #282531;
+}
+.footer p {
+  color: #f0fff0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer ul li {
+  color: #f0fff0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer span {
+  color: #f8fffb;
+}
